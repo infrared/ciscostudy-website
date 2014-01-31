@@ -5,7 +5,7 @@ var http            = require('http');
 
 var app = express();
 app.configure(function(){
-    app.set('port',6789);
+    app.set('port', process.env.PORT);
     app.use(express.favicon());
     app.use(express.json());
     app.use(express.urlencoded());
