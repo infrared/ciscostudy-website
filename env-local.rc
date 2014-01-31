@@ -1,0 +1,10 @@
+echo 
+echo "Setting development environmental variables..."
+export APP_ROOT=""
+export APP_ENVIRONMENT=""
+export APP_PORT="6799"
+
+echo -e "\tENVIRONMENT: $ENVIRONMENT"
+echo -e "\tPORT: $PORT"
+
+echo
